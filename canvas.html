@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>lang="en"
+<html lang="en">
 <head>
-    <meta chardet="UTF-8">
-    <meta name="viewport" content="width-device-width, intial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, intial- scale=1.0">
     <title> Bouncing Ball Animation</title>
     <style>
-        canva{
-            border: 1px solid black
+        canvas{
+            border: 1px solid black;
         }
     </style>
     </head>
     <body>
-        <canvas id="myCanvas" width="400" height="300"></canvas>
-        <script src="animation.js"></script>
+        <canvas id="ballCanvas"
+         width="400" height="300"></canvas>
+        <script>
+            const canvas = 
+            document.getelElementById(`ballCanvas`);
+            const ctx =
+            canvas.getContext(`2d`);
+            </script>
     </body>
 
 </html>
