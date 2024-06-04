@@ -69,6 +69,19 @@
                 this.x += this.dx;
                 this.y += this.dy;    
         }
-        </script>     
+         </script>  
+//Step 5   
+        <script> 
+        const ball = new Ball (200,160,2,2,20,'red');
+        function animate() {
+             ctx.clearRect(0, 0,
+                canvas.width, canvas.height);
+                       ball.draw(ctx);
+                       ball.update(canvas);
+        }
+
+            
+         
+        </script>
 
 
