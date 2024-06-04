@@ -6,25 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" 
     content="width=device-width, intial- scale=1.0">
-    <title> Bouncing Ball Animation</title>
+    <title> Bouncing Ball Animation </title>
     <style>
         canvas{
             border: 1px solid black;
         }
-    </style>
+        </style>
     </head>
-    <body>
+</body> 
         <canvas id="ballCanvas"
          width="400" height="300"></canvas>
         <script>
             const canvas = 
-            document.getelElementById(`ballCanvas`);
+            document.getElementById(`ballCanvas`);
             const ctx =
             canvas.getContext(`2d`);
             </script>
-    </body>
-
-</html>
+    
 //Step 2
 <script>
     class Ball{
@@ -79,9 +77,12 @@
                        ball.draw(ctx);
                        ball.update(canvas);
         }
-
+           SetInterval(animate,10);
             
          
         </script>
+
+ </body>
+ </html>
 
 
